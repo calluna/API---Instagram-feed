@@ -58,7 +58,6 @@ article {
 }
 #instafeed img {
     width: 300px;
-    /*border: 1px solid #0ba4e5;*/
     margin-top: 30px;
 }
 @media (min-width: 900px) {
