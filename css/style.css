@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'sinkin-thin';
+    src: url('../fonts/sinkinWeb/sinkinsans-100thin-webfont.woff2') format('woff2'),
+         url('../fonts/sinkinWeb/sinkinsans-100thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sinkin-regular';
+    src: url('../fonts/sinkinWeb/sinkinsans-400regular-webfont.woff2') format('woff2'),
+         url('../fonts/sinkinWeb/sinkinsans-400regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background: #0ba4e5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    border-bottom: 1px solid #ededed;
+}
+h1 {
+    color:#ededed;
+    font-family: 'sinkin-thin', arial;
+    font-size: 16px;
+    margin: 20px 0 20px 10px;
+}
+h2 {
+    font-family: 'sinkin-thin', arial;
+    font-size: 28px;
+    margin: 30px;
+}
+p {
+    margin: 30px;
+}
+.content {
+    width: 90%;
+    margin: 0px auto;
+}
+#instafeed .img {
+    display: table;
+    margin: 0 auto;
+}
+#instafeed img {
+    width: 300px;
+    margin-top: 30px;
+    border: 1px solid #fff;
+}
+@media (min-width: 900px) {
+    h2 {
+        margin: 30px 100px;
+    }
+    p {
+        margin: 20px 100px;
+    }
+    #instafeed {
+        width: 61%;
+    }
+    #instafeed img {
+        width: auto;
+        max-width: 592px;
+        margin-top: 40px;
+    }
+}
